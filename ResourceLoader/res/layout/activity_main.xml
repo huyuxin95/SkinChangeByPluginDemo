@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    	<Button 
+        android:id="@+id/btn_1"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="加载主题1"
+        />
+        <Button 
+        android:id="@+id/btn_2"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+         android:layout_weight="1"
+        android:text="加载主题2"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    	<Button 
+        android:id="@+id/btn_3"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="加载主题3"
+        />
+        <Button 
+        android:id="@+id/btn_4"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+         android:layout_weight="1"
+        android:text="加载主题4"
+        />
+</LinearLayout>
+<TextView 
+    android:id="@+id/tx_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/dynamic_string"
+    />
+<ImageView 
+    android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/power_off"
+    />
+<LinearLayout 
+    android:id="@+id/view_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    />
+</LinearLayout>
